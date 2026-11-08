@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 // Explicitly handle all preflight OPTIONS requests across routes
-app.options('*', cors());
+//app.options('*', cors());
 
 // 2. Body parser middleware
 app.use(express.json());
